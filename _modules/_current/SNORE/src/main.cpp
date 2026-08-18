@@ -176,7 +176,7 @@ void sendPeriodicUpdate()
   {
     lastUpdate = now; // Reset the timer
     String updateTopic = "updateChallenges/" + String(mqttClient);
-    sendDataToServer(updateTopic, "heartbeat");
+    sendDataToServer(updateTopic, "messsage");
   }
 }
 
